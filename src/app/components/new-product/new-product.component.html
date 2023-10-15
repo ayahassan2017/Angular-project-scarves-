@@ -1,0 +1,31 @@
+<form [formGroup]="RegForm" class="form m-2">
+  <div class="form-group d-flex  m-2">
+    <label class="w-25">Brand</label>
+    <input type="text" formControlName="Brand" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group d-flex m-2">
+    <label class="w-25">Type</label>
+    <input type="text" formControlName="Type" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group d-flex m-2">
+    <label class="w-25">Price</label>
+    <input type="text" formControlName="Price" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group d-flex m-2">
+    <label class="w-25">size</label>
+    <input type="text" formControlName="size" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group d-flex m-2">
+    <label class="w-25">color</label>
+    <input type="text" formControlName="color" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group d-flex m-2">
+    <label class="w-25">imagesource</label>
+    <input type="text" formControlName="img" class="form-control w-75 text-center">
+  </div>
+  <div class="form-group m-auto  m-2">
+    <input (click)="AddProduct()" class="btn btn-outline-dark w-25 text-center " type="submit">
+  </div>
+
+
+</form>

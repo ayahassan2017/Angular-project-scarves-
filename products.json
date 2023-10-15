@@ -1,0 +1,103 @@
+{
+  "products": [
+    {
+      "Brand": "Seilene",
+      "Type": "Recycled cashmere scarf",
+      "Price": "900 EGP",
+      "size": "60cm*150cm",
+      "color": "gray",
+      "img": "assets/images/img11.jpg",
+      "id": 12
+    },
+    {
+      "Brand": "Tieshop",
+      "Type": "Tieshop solid scarf-crepe chiffon",
+      "Price": "150 EGP",
+      "size": "150cm*75cm",
+      "color": "Green",
+      "img": "assets/images/img8.jpg",
+      "id": 3
+    },
+    {
+      "Brand": "Nordstrom",
+      "Type": "IslaBucle wrap winter",
+      "Price": "2000 EGP",
+      "size": "150cm*250cm",
+      "color": "pink/gray",
+      "img": "assets/images/img3.webp",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "Brand": "Nordstrom",
+      "Type": "Silk Square Scarf",
+      "Price": "1000 EGP",
+      "size": "50cm square",
+      "color": "Blue/babyBlue",
+      "img": "assets/images/img4.webp"
+    },
+    {
+      "Brand": "Hougsta",
+      "Type": "scarf-crepe chiffon",
+      "Price": "700 EGP",
+      "size": "60cm*150cm",
+      "color": "pink",
+      "img": "assets/images/img6.jpg",
+      "id": 11
+    },
+    {
+      "id": 8,
+      "Brand": "MADEWELL",
+      "Type": "Bandana",
+      "Price": "307 EGP",
+      "size": "70cm square",
+      "color": "yellow",
+      "img": "assets/images/img2.webp"
+    },
+    {
+      "id": 9,
+      "Brand": "joumera",
+      "Type": "Flecked Wool Scarf",
+      "Price": "1000 EGP",
+      "size": "67cm*30cm",
+      "color": "Antiquecream",
+      "img": "assets/images/img6.webp"
+    },
+    {
+      "Brand": "Nordstromm",
+      "Type": "Recycled cashmere scarf",
+      "Price": "1000 EGP",
+      "size": "60cm*150cm",
+      "color": "Red",
+      "img": "assets/images/img5.webp",
+      "id": 10
+    },
+    {
+      "Brand": "ALLSAINTS",
+      "Type": "Mahara Large square scarf",
+      "Price": "1750 EGP",
+      "size": "52cm square",
+      "color": "Blush",
+      "img": "assets/images/img1.webp",
+      "id": 7
+    },
+    {
+      "Brand": "ELModather",
+      "Type": "ELModather chiffon printed Scarf for women",
+      "Price": "172 EGP",
+      "size": "75cm*150cm",
+      "color": "pink/gray",
+      "img": "assets/images/img7.jpg",
+      "id": 4
+    },
+    {
+      "Brand": "sendrella",
+      "Type": "wool scarf",
+      "Price": "375 egp",
+      "size": "70cm*150cm",
+      "color": "yellow",
+      "img": "assets/images/img10.jpg",
+      "id": 13
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<!-- <div class="alert alert-info d-flex justify-content-between  flex-wrap">
+  <img style=" width: 40%;" src="{{oneProduct.img}}">
+  <p>Brand : {{oneProduct.Brand}}</p>
+  <p>price : <a routerLink="/products/{{oneProduct.id}}">{{oneProduct.Price}}</a></p>
+</div> -->
+
+<!-- <div class=" row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img style=" width: 40%;" src="{{oneProduct.img}}">
+      <div class="card-body">
+        <h5 class="card-title">Brand : {{oneProduct.Brand}}</h5>
+        <p class="card-text">price : <a routerLink="/products/{{oneProduct.id}}">{{oneProduct.Price}}</a></p>
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="card d-inline-block border border-0" style="width: 25rem;">
+  <img style=" width: 40%;" src="{{oneProduct.img}}">
+  <div class="card-body m-auto">
+    <h5 class="card-title">Brand : {{oneProduct.Brand}}</h5>
+    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    <!-- <a href="#" class="btn btn-primary">Price</a> -->
+    <p class="card-text btn btn-secondary">price : <a class=" link-warning" routerLink="/products/{{oneProduct.id}}">{{oneProduct.Price}}</a></p>
+  </div>
+</div>

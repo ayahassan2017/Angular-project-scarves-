@@ -1,0 +1,18 @@
+<div  *ngIf="product">
+<div
+ class="alert alert-dark d-flex align-items-start flex-column"
+>
+  <p>Brand : {{product.Brand}}</p>
+  <p>{{product.Type}}</p>
+  <p>Price : {{product.Price}}</p>
+  <p>Size : {{product.size}}</p>
+  <p>color : {{product.color}}</p>
+  <img src="{{product.img}}">
+</div>
+<div class="b-flex justify-content-center">
+  <a class="btn btn-outline-success" routerLink="/products/update/{{product.id}}">Update</a>
+  <button class="btn btn-outline-danger" (click)="deleteProduct()">Delete</button>
+</div>
+</div>
+
+
